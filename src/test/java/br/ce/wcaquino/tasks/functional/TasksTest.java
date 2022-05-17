@@ -13,7 +13,7 @@ public class TasksTest {
 	
 	public WebDriver accessApplication() {
 		WebDriver driver = new ChromeDriver();
-		driver.navigate().to("http://localhost:8001/tasks/");
+		driver.navigate().to("http://192.168.86.250:8001/tasks/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return driver;
 	}
